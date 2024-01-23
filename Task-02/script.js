@@ -3,7 +3,7 @@ const product = [
     id: 1,
     image: "images/shoe-1.png",
     title: "MENS SHOES DN 23XX",
-    price: 104,
+    price: 103,
   },
   {
     id: 2,
@@ -73,7 +73,7 @@ document.getElementById("root").innerHTML = categories
   .join("");
 
 var cart = [];
-// ================ adding new items =================//
+// ================ adding new items ==============//
 function addtocart(a) {
   cart.push({ ...categories[a] });
   displaycart();
